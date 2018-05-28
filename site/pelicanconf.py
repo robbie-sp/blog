@@ -13,17 +13,17 @@ TIMEZONE = 'Europe/London'
 DEFAULT_LANG = 'English'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
+FEED_ALL_ATOM = False
+CATEGORY_FEED_ATOM = False
+TRANSLATION_FEED_ATOM = False
+AUTHOR_FEED_ATOM = False
+AUTHOR_FEED_RSS = False
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+# LINKS = (('Pelican', 'http://getpelican.com/'),
+#          ('Python.org', 'http://python.org/'),
+#          ('Jinja2', 'http://jinja.pocoo.org/'),
+#          ('You can modify those links in your config file', '#'),)
 
 # Social widget
 SOCIAL = (('Twitter', 'https://twitter.com/robbie_sp'),
@@ -62,7 +62,7 @@ MENU_INTERNAL_PAGES = (
     ('Archives', ARCHIVES_URL, ARCHIVES_SAVE_AS),
 )
 # additional menu items
-MENUITEMS = (
-    ('Twitter', 'https://twitter.com/robbie_sp'),
-    ('GitHub', 'https://github.com/robbie-sp')
-)
+# MENUITEMS = (
+#     ('Twitter', 'https://twitter.com/robbie_sp'),
+#     ('GitHub', 'https://github.com/robbie-sp')
+# )
